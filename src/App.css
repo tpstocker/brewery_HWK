@@ -1,0 +1,41 @@
+.App {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.breweries_container {
+
+  background-color: #ffa142;
+  display: flex;
+  justify-content: space-around;
+  overflow-x: hidden;
+}
+
+#title {
+  text-align: center;
+}
+
+#display {
+
+
+  width: 70%;
+  text-align: center;
+
+}
+
+#mapid {
+  height: 10px;
+}
+
+li:hover {
+  font-size: larger;
+}
+
+.leaflet-container {
+  margin: 0 auto;
+  width: 100vh;
+  height: 100vh;
+}
